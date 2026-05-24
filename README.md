@@ -1,19 +1,34 @@
+
 # Flame Detection Robot
 
-An Arduino-based flame detection robot capable of detecting flames and reacting automatically using sensors and motor control.
+An Arduino-based autonomous fire detection robot capable of detecting flames using infrared flame sensors and responding automatically through motor control.
+
+The robot demonstrates basic robotics, embedded systems, and sensor interfacing concepts. It can be further upgraded into a complete fire-fighting robot by integrating a water pump and obstacle avoidance system.
 
 ## Components Used
 - Arduino UNO
 - Flame Sensor
 - L298N Motor Driver
 - DC Motors
+- Robot Chassis
+- Wheels
+- Battery Pack
+- Jumper Wires
 
 ## Features
-- Flame detection
+- Flame detection using IR sensor
 - Autonomous movement
-- Robotics implementation
+- Motor driver control
+- Embedded systems implementation
+
+## Future Improvements
+- Water pump integration
+- Obstacle avoidance
+- ESP32/WiFi control
+- Mobile app monitoring
 
 ## Learning Outcomes
-- Embedded systems basics
-- Sensor interfacing
 - Arduino programming
+- Sensor interfacing
+- Robotics fundamentals
+- Motor control systems
